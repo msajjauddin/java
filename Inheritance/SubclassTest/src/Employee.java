@@ -1,7 +1,7 @@
 package payroll;
 //now purpose of these class is to define employee hours, rate, and their respective salary calculation based on their variables;
 //
-class Employee {
+public class Employee {
 //instance variables
 private int hours;
 private float rate;
