@@ -18,7 +18,7 @@ class Program{
 		System.out.printf("d is identical to b : %b%n", d==b);		
 		System.out.println("----------------");
 
-		/*
+		
 		System.out.printf("a is equals to b : %b%n",a.hashCode()==b.hashCode() && a.equals(b));
 
 
@@ -26,17 +26,17 @@ class Program{
 
 
 		System.out.printf("d is equals to b : %b%n",d.hashCode()==b.hashCode() && d.equals(b));
-	*/
+	
 		
 		System.out.println("----------------");
-		//System.out.printf("Interval a = %s %n",a.toString());
+	/*	//System.out.printf("Interval a = %s %n",a.toString());
 		System.out.printf("hashcode a = %s %n",a.hashCode());
 	
 		System.out.printf("hashcode b = %s %n",b.hashCode());
 		System.out.printf("hashcode c = %s %n",c.hashCode());
 	
 		System.out.printf("hashcode d = %s %n",d.hashCode());
-	
+	*/
 	
 	
 	
