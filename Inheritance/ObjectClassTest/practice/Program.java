@@ -8,24 +8,30 @@ class Program {
 		Cat c = new Cat();
 		c.eat();
 */
-		Cat d = new Cat();
-		doAnimalStuff(d);
-			
+		Cat c = new Cat();
+	//	c.eat();
+	//	c.makeNoise();
+	//	doAnimalStuff(c);
+		
+		Dog d = new Dog();
+		doAnimalStuff(d);	
 
 
 	}
 
 	public static void doAnimalStuff(Animal animal){
-		animal.makeNoise();
-		if(animal instanceof Dog){
-
-		Dog d = (Dog)animal;
-		d.growl();
-		}
+	//	animal.makeNoise();
+		if(animal instanceof Dog ){
 			
-
-
-
+		d.growl();
+		
+		//	Killer k = (Killer)animal;
+		//	k.iBite();
+		}
+	//	Cat c = (Cat)animal;
+		
+		//c.eat();
+			
 	}
 
 
