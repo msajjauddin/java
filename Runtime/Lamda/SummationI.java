@@ -1,0 +1,7 @@
+
+
+interface SummationI {
+
+	int sum(int a,int b);
+
+}

@@ -1,21 +1,37 @@
-
+import java.util.*;
 
 	class sample1 {
 
 	
 
-	public staic void main(String[] args){
+	public static void main(String[] args){
 
-		var v1  = new (){
-			int rollNo;
-			double val;
-
-			int getRollNo(){
-				return rollNo;
-			}
-		 }
+		var a = new sample1();
+		var b = a.iterator();
 
 	}
+
+
+		public Iterator iterator(){
+			
+			return new Iterator(){
+			
+			private Node current = 
+			public boolean hasNext() {
+				return current != null;
+						}
+			
+			public V next(){
+
+				V result = current.value;							 			 				current = current.below;
+				return result;
+													 					}
+			};
+
+
+		}
+
+
 
 
 	}
