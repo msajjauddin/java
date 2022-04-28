@@ -36,7 +36,7 @@ class Program2 {
 	public static void main(String[] args)throws Exception{
 	int n = args.length > 0 ? Integer.parseInt(args[0]) : 10;
 	var job  = doComputation(n);
-	while(!job.isDone()){
+	while(job.isDone() == false){
 		System.out.print(".");
 		Thread.sleep(500);
 	}

@@ -43,13 +43,9 @@ class Program3 {
 
 		}
 
-		//this program is example of type safe type but here code duplication 
-		//so it is not a generics function
-		//a function called generic is when a it support both type safety and support differenct data types in just one 
-		//function 
-		//above is type safed function but does not support different data types
-		//
-		//
+
+
+		
 
 		
 

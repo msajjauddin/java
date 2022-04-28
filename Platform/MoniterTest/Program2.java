@@ -26,7 +26,7 @@ class Program2 {
 		public synchronized void deposit(int amount)  {
 			worker.doWork(amount / 500);	
 			balance += amount;
-
+			this.notify();
 		}
 
 		
