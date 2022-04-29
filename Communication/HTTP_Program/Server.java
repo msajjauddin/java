@@ -8,7 +8,7 @@ class Server {
 	//HTTP Server take cares of multithreading
 	public static void start() throws Exception {
 
-		var endpoint = new java.net.InetSocketAddress(4000);
+		var endpoint = new java.net.InetSocketAddress(4040);
 		var server = com.sun.net.httpserver.HttpServer.create(endpoint, 10);
 		server.createContext("/shopping",
 				client -> { 				

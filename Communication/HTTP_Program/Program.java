@@ -5,11 +5,12 @@ import java.net.http.*;
 class Program {
 
 	public static void main(String[] args) throws Exception {
-	if(args.length == 0)
+
 		Server.start();
+	
 	String item = args[0].toLowerCase();
 	int quantity = Integer.parseInt(args[1]);
-	URI site = new URI("http://localhost:4000/shopping/"+ item);
+	URI site = new URI("http://localhost:4040/shopping/"+ item);
 	var client = HttpClient.newHttpClient(); //builder pattern
 	var request = HttpRequest.newBuilder()
 				.GET()
@@ -34,7 +35,7 @@ class Program {
 
 
 	}
-
+	
 
 
 }
